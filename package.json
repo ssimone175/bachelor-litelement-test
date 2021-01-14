@@ -1,0 +1,17 @@
+{
+  "name": "lit-components",
+  "version": "0.0.0",
+  "description": "Webcomponent lit-components following open-wc recommendations",
+  "author": "lit-components",
+  "license": "MIT",
+  "scripts": {
+    "start": "web-dev-server --app-index index.html --node-resolve --open --watch"
+  },
+  "dependencies": {
+    "lit-html": "^1.0.0",
+    "lit-element": "^2.0.1"
+  },
+  "devDependencies": {
+    "@web/dev-server": "^0.0.12"
+  }
+}

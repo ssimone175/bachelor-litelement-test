@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+  margin: 0;
+  font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+h1{
+  font-weight:900;
+  font-size:4em;
+  line-height:1.4em;
+}
+header{
+  background-image: url("hochgrat.JPG");
+  background-position: left center;
+  background-size:cover;
+  width:100%;
+  height:100vh;
+  display:flex;
+  padding-left:5em;
+  align-items: center;
+  color:white;
+}
+nav{
+  box-shadow: 0px 6px 15px 10px rgba(0,0,0,0.05);
+}
+section{
+  padding: 4em 2em;
+}
+.card{
+  border:none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+.mh-200{
+  min-height:200px;
+}
+.mh-500{
+  min-height:500px;
+}
+.bg-lightgray{
+  background-color: #f9f9f9;
+}
+footer {
+  box-shadow: 0px -6px 15px 10px rgba(0,0,0,0.05);
+  padding: 2.5em 5em;
+  text-align: center;
+  color:#666;
+  margin-top:3em;
+}
+
+map-route{
+  --button-bg: #c7d6c8;
+  --button-hover-bg:#97b89a;
+}
+event-calendar{
+  --event-background: #97B89A;
+  --event-hover-background: #556B57;
+  --header-background: #556B57;
+  --btn:#556B57;
+  --btn-hover: #3b4a3c;
+  --today: red;
+  max-width:100%;
+  box-sizing: border-box;
+}
+weather-forecast{
+}
+@media(max-width:575px){
+  header{
+    padding:2em;
+  }
+  h1{
+    font-size:3.3em;
+  }
+}
