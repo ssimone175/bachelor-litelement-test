@@ -1,6 +1,5 @@
-<p align="center">
-  <img width="200" src="https://open-wc.org/hero.png"></img>
-</p>
+# Lit Element Web Components Test
+This project was created with the help of the Open-wc Starter App. These components are part of a Bachelor Thesis comparing Web Components to the React library. A Web Component was integrated in this example project. You can find the original components under the following link: https://github.com/ssimone175/web-components
 
 ## Open-wc Starter App
 
